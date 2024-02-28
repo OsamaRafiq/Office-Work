@@ -1,0 +1,30 @@
+.btnex{
+     /* text-align: center; */
+    margin-top: 3%; 
+    
+}
+
+
+.btn-group>.btn:not(:first-child) {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+.th-color{
+    background-color: rgb(255, 230, 0);
+
+}
+.table-new{
+border-color: rgb(216, 6, 6);
+border-style: double;
+border: 50px;
+}
